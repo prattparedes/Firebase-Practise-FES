@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    margin: 24px 0;
+    background-color: lightgray;
+    height: 60px;
+}
+
+.nav__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 12px;
+    margin: 0 12px 0 0;
+    border: 0 solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.btn__register {
+    background-color: blue;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgba(191, 116, 208, 0.2);
+}
+
+.logout {
+    border-radius: 100%;
+}
+
+.nav__logo {
+    max-width: 300px;
+}
+
+.skeleton__register {
+    background-color: gray;
+    height: 32px;
+    width: 120px;
+}
+
+.skeleton__register:hover {
+    background-color: gray;
+}
+
+.skeleton__profile {
+    background-color: gray;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
