@@ -2,8 +2,7 @@ import React from "react";
 import Logo from "../assets/Frontend.png";
 import "./Nav.css";
 
-function Nav({ register, login, logout, user, loading }) {
-  console.log(user);
+function Nav({ register, login, logout, user, loading }) {;
   return (
     <nav id="nav">
       <figure>
